@@ -21,7 +21,7 @@ public class PerformanceComparision {
       size=ProtoTest.protoTest(message);
     }
     endTime = System.currentTimeMillis();
-    //System.out.println("==============================================================================");
+    System.out.println("==============================================================================");
     System.out.println("Time taken by proto buffer serialization and deserialization in ms:::" + Long.toString(endTime - startTime));
     System.out.println("protobuffer Size:::::" + Integer.toString(size));
     System.out.println("==============================================================================");
